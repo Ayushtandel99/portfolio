@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300;400&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:wght@500&family=Source+Code+Pro:wght@300;400&family=Tilt+Prism&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background :fixed;
+   background-image: url(pxfuel.jpg);
+}
+.sidebar{
+    background-color :rgb(246, 234, 234, 0.2);
+    color: orangered;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 30px;
+    height: 100vh;
+    transition: transform 0.3 ease-in;
+    position: absolute;
+}
+.ace{
+    font-size: 130%;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.infocontainer{
+    background-color: transparent;
+    color: white;
+    height: 55vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 245px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.animation::first-letter{
+    color: rgb(240, 180, 49);
+    }
+.animation{
+       
+  overflow: hidden;
+  font-size: 150%;
+  color: aqua;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation-name: typing;
+  animation-duration: 3s;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.ppic img{
+    justify-items: center;
+    height: auto;
+    margin-top:-80px;
+    padding-left: 80px; 
+}
+.hellow{
+    padding-bottom: 8px;
+}
+.hellow::first-letter{
+color: rgb(0, 195, 255);
+}
+.name::first-letter{
+    color: rgb(248, 59, 59);
+
+}
+.main{
+    padding: 36px;
+    width: 90%;
+    font-size: 150%;
+    
+}
+.container{
+    display: flex;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding : 33px 0;
+   
+
+}
+.sidebar nav li a{
+    color: rgb(240, 164, 136);
+    text-decoration: none;
+
+}
+.sidebar nav li a:hover{
+    background-color: black;
+}
+.sidebar nav li{
+    text-decoration: none;
+    color: rgb(243, 236, 237);
+}
+
+.infocontainer{
+    color: white;
+    background-color: transparent;
+    height: 55vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 18vw;
+}
+.devinfo {
+    /* padding-left: 12vw; */
+    padding-bottom: 10vh;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.animation2::first-letter{
+    color: rgb(240, 180, 49);
+    }
+.animation2{
+       
+  overflow: hidden;
+  font-size: 260%;
+  color: aqua;
+  border-right: 10px solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation-name: typing;
+  animation-duration: 3s;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* .about{
+    color: rgb(23, 219, 154);
+} */
+.devpic img{
+    /* justify-content: space-around; */
+    height: 500px;
+    margin-top: 0px;
+    padding-right: 40px;
+}
+.hellow{
+    
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about{
+    font-size: 2.5em;
+    color: orange;
+}
+.moreabout{
+    color: orange;
+    font-size: 2em;
+    margin-top: 25px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 5px;
+}
+.buttons button{
+    padding: 9px 14px;
+    color: white;
+    background-color: cornflowerblue;
+    margin: 3px 3px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.buttons button:hover{
+    background-color: azure;
+    color: aqua;
+}
+.contactform{
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 0 34px;
+    padding-left: 7vw;
+
+}
+.contactform form{
+    margin: 0 40px;
+}
+.contactform h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-control{
+    border-radius: 4px;
+    width: 35vh;
+    margin: 6px 0 0 0 ;
+    padding: 3px;
+    flex-direction: column;
+}
+.form-label::first-letter{
+    color: red;
+}
+.mb-3{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-text{
+    font-size: 11px;
+    color: orange;
+    margin: 0 4px;
+}
+.mb-4 {
+    color: orange;
+}
+
+.pro{
+    margin: 12px 0;
+    padding-left: 100px;
+    text-align: center;
+}
+.gallery{
+    padding-left: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery .item{
+    flex-basis: calc(50% - 25px);
+    margin: 10px;
+  }
+  
+  .gallery .item img {
+         width: 360px;
+         height: 360px;
+         padding-left: 11vw;
+         margin-top: 40px;
+        
+    }
+
+    pre{
+        text-align:left;
+    }
+    .intro{
+        padding-left: 7vw;
+    }
+
+    .item h3{
+        color: rgb(245, 172, 36);
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 5px;
+    }
+    h2{
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-size: 200%;
+        font-weight: bold;
+        padding: 20px;
+        margin-left: 20px;
+        padding-left: 10px;
+        color: rgb(255, 255, 255);
+
+    }
+    p::first-letter{
+        color: red;
+    }
+    p{
+        font-family: 'Source Code Pro', monospace;
+        padding: 30px;
+        margin-top: 6px;
+        color: white;
+    }
+    .skillcontainer{
+        min-height: 5vh;
+        padding: 6px;
+        margin: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skill75{
+        margin-top: 10px;
+        padding-left: 15px;
+        width: 300px;
+        height: 8px;
+        background-color: rgb(120, 3, 141);
+        border: 2px solid white;
+    }
+       
+    .skill65{
+        margin-top: 10px;
+        padding-left: 15px;
+        width: 225px;
+        height: 8px;
+        background-color: rgb(7, 130, 218);
+        border: 2px solid white;
+    }
+    .skill45{
+        padding-left: 15px;
+        margin-top: 10px;
+        width: 150px;
+        height: 8px;
+        background-color: rgb(218, 21, 7);
+        border: 2px solid white;
+    }
+    .sp{
+        color: white;
+        padding-left:40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+      
+    @media (max-width: 1550px){
+        * {
+            background-color: red;
+          }
+       .sidebar{
+            transform: translate(-443px, 0px);
+            position: absolute;
+          /* }
+          .sidebargo{
+            transform: translate(-443px, 0px);
+            position: absolute;
+          } */
+          .devpic{
+            display: none;
+          }
+          .buttons{
+            font-size: 6px;
+          }
+          .devinfo{
+            font-size: 10px;
+          }
+    }
+/* .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 14px;
+    left: 14px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.cross{
+    margin-left: 68px;
+} */
